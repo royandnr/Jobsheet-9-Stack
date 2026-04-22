@@ -38,6 +38,8 @@ public class MahasiswaDemo22 {
                     int nilai = sc.nextInt();
                     mhsDinilai.tugasDinilai(nilai);
                     System.out.printf("Nilai Tugas %s adalah %d\n", mhsDinilai.nama, nilai);
+                    String biner = stackTugas.konversiDesimalKeBiner(nilai);
+                    System.out.printf("Nilai dalam biner: " + biner);
                 }
                 break;
             case 3:
